@@ -1,64 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 
-h1 {
-  text-align: center;
-  font-family: "League Spartan", sans-serif;
-  margin: 25px;
+
+
+.contact{
+text-align: center;
 }
 
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "League Spartan", sans-serif;
-  background-color: rgb(255, 255, 255);
+h1{
+  font-family: 'League Spartan', sans-serif;
 }
 
-.contact-infomation {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 7px;
-  background-color: rgb(139, 139, 139);
+p{
+  font-family: 'League Spartan', sans-serif;
 }
 
-.contact-name {
-  text-decoration: none;
-  list-style: none;
-  margin: 20px;
+
+.main-container{
+display: flex;
+justify-content:center ;
+margin: 50px;
 }
 
-.contact-name li {
-  list-style: none;
-  font-family: "League Spartan", sans-serif;
-  font-size: 18px;
+.container{
+margin-top: 25px;
+
 }
 
-.input-box-message {
-  width: 400px;
-  height: 250px;
-  margin: 5px;
+.box{
+  width: 100%;
   border: 1px solid black;
-  font-size: 18px;
-}
-
-.input-box {
-  width: 400px;
   height: 40px;
-  margin: 10px;
-  border: 1px solid rgb(0, 0, 0);
-  width: 350px;
+  margin-top: 10px;
 }
 
-.contact-input {
-  background-color: rgb(165, 165, 165);
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+.box-message{
+  height: 150px ;
 }
 
-button {
-  width: 200px;
-  height: 40px;
-  font-size: 18px;
-}
